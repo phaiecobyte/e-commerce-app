@@ -1,0 +1,48 @@
+# Build artifacts
+/target/
+/build/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Logs
+log/
+*.log
+
+# Environment variables and sensitive data
+.env
+application*.properties.local
+application*.yml.local
+*.key
+*.pem
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Other
+temp/
+
+.vscode
+.node_modules
